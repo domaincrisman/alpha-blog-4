@@ -1,5 +1,4 @@
 $navbar-default-bg: #FFC83C;
-  
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -26,6 +25,7 @@ $navbar-default-bg: #FFC83C;
   background-image: asset-url('bg_jumbotron.jpeg');
   background-size: cover;
   height: 550px;
+  margin-bottom: 10px;
 }
 
 .jumbotron h1{
@@ -42,7 +42,7 @@ $navbar-default-bg: #FFC83C;
 }
 
 footer{
-  margin-top: 45px;
+  margin-top: 20px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
